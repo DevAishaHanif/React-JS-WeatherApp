@@ -1,0 +1,59 @@
+body {
+    font-family: verdana;
+    margin: 10px;
+    padding: 10px;
+    background-color: #000;
+
+}
+
+.card {
+    border: 5px solid orange;
+    border-radius: 30px;
+    margin: 10px 0px 10px 5px;
+    padding: 20px;
+    width: 20%;
+    float: left;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    float: left;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 480px to 767px
+*/
+@media (min-width: 220px) and (max-width: 767px) {
+    body{
+        margin:0;
+        padding:0;
+    }.container {
+        width: 100%;
+    }
+    .card {
+        width:60%;
+        margin: 10px 10px 10px 38px;
+          text-align: center;
+    }
+}
+/* 
+  ##Device = Tablets, Ipads 
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        margin:0;
+        padding:0;
+    }
+    .container {
+        width: 100%;
+        margin:20px;
+    }
+    .card {
+        width:35%;
+        margin: 10px 10px 10px 14.2rem;
+        text-align: center;
+    }
+}

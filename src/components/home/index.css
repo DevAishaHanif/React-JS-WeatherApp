@@ -1,0 +1,77 @@
+h1 {
+    color: orange;
+    letter-spacing: 5px;
+}
+
+button {
+    padding: 10px;
+    width: 20rem;
+    cursor: pointer;
+    background-color: #fff;
+    color: grey;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    border: 5px solid orange;
+
+}
+
+.input {
+    padding: 10px;
+    background-color: #fff;
+    color: grey;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    width: 18rem;
+    border: 5px solid orange;
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles 
+  ##Screen = B/w 480px to 767px
+*/
+@media (min-width: 220px) and (max-width: 767px) {
+     .input,
+     button {
+        text-align: center;
+        padding: 10px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .input{
+        width: 70%;
+    }
+    button{
+        width: 79%;
+    }
+    h1{
+        font-size: 29px;
+        text-align: center;
+    }
+}
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .input,
+     button {
+        text-align: center;
+        padding: 10px;
+        margin-left: 15rem;
+        font-size: 14px;
+    }
+    .input{
+        width: 40%;
+    }
+    button{
+        width: 44%;
+    }
+    h1{
+        font-size: 29px;
+        text-align: center;
+    }
+}
